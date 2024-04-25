@@ -1,0 +1,76 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+#link{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#link:hover{
+    background-color: hsl(358,86%,51%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(238,23,31) 0px 3px 3px 0px;
+    
+}
+.button{
+    padding: 17px 40px;
+    background-color: #e0e8ef;
+    box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%);
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+.button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(358,86%,51%);
+    color: hsl(0, 0%, 100%);
+}
+
+.button:active {
+    letter-spacing: 3px;
+    background-color: hsl(358,86%,51%);
+    color: hsl(0, 0%, 100%);
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+
+.feature{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+}
+
+//? cards-div
+
+.card{
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+            -15px -15px 30px #ffffff;
+}
+
+#favorite{
+    border-radius: 10px;
+    padding: 15px;
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(199,14,32,1) 36%, rgba(0,212,255,1) 100%);;
+    color: white;
+    display: inline-block;
+}
+
+
